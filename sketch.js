@@ -34,12 +34,12 @@ function setup() {
 function draw() {
 
   background(102, 163, 229);
-  
+
   ball1.display();
   ball2.display();
   ball3.display();
   ball4.display();
-  
+
   drawMidleft();
   drawMidright();
   drawLeft(angleRight);
@@ -49,15 +49,15 @@ function draw() {
   drawRighteye();
   drawPupils();
   drawMouth();
-  // drawHat(width * .5, height * -.2, 32);  
-  
-  
+  // drawHat(width * .5, height * -.2, 32);
+
+
   hat1.display();
   ball1.move();
   ball2.move();
   ball3.move();
   ball4.move();
-  
+
   // console.log("mic level" + mic.getLevel());
 
   // micLevel = mic.getLevel()
